@@ -35,5 +35,5 @@ And("order by top rated") do
 end
 
 And("filter price up to 140 R$") do
-  @search.order_top_rated
+  @search.filter_price_upto_140
 end
